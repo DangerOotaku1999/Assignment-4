@@ -8,15 +8,15 @@
 // including input/output library for user input and preview
 #include <cmath>
 // including math library before heading towards the program
-// perciesly we're using it here just for the square root function
+// precisely we're using it here just for the square root function
 #include <cstring>
 // including cstring library so we're able to perform common string functions
 using namespace std;
 // this line litreally sets us free from writing std:: each time
 // for input/output operations
 char shape[50];
-// giving a variable the definition of a charachter, along with it's
-// maximum lenght allowed
+// giving a variable the definition of a character, along with it's
+// maximum length allowed
 float area, rib, circumference, rib1, apothem, rib2, rib3, height, width, length, base, radius, diameter, angle;
 // definition of float so we can deal with fractions
 double const pi = 3.14159;
@@ -78,7 +78,7 @@ int main()
 	else if (strcmp(shape, "Ellipse") == 0){
 		double maj,min;
 // double has been defined as a supporter for fraction inputs and outputs
-// and appearently it can't be universally defined
+// and apparently  it can't be universally defined
 		cout << "Enter Ellipse's Major Axis value: ";
 		cin >> maj;
 		cout << "Enter Ellipse's Minor Axis value: ";
